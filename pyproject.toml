@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "availability-checker"
+version = "0.1.0"
+description = "Function that returns the real-time availability of professionals, updating based on current activity or schedule."
+authors = ["AutoGPT <info@agpt.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+bcrypt = "^3.2.0"
+fastapi = "*"
+prisma = "*"
+pydantic = "*"
+uvicorn = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
